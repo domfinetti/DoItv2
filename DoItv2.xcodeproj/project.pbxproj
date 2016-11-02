@@ -13,6 +13,7 @@
 		618A05961DC97408006544DB /* DoItv2.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 618A05941DC97408006544DB /* DoItv2.xcdatamodeld */; };
 		618A05981DC97408006544DB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 618A05971DC97408006544DB /* Assets.xcassets */; };
 		618A059B1DC97408006544DB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 618A05991DC97408006544DB /* LaunchScreen.storyboard */; };
+		618A05A31DC97848006544DB /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = 618A05A21DC97848006544DB /* Task.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		618A05971DC97408006544DB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		618A059A1DC97408006544DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		618A059C1DC97408006544DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		618A05A21DC97848006544DB /* Task.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 			children = (
 				618A058D1DC97408006544DB /* AppDelegate.swift */,
 				618A058F1DC97408006544DB /* ViewController.swift */,
+				618A05A21DC97848006544DB /* Task.swift */,
 				618A05911DC97408006544DB /* Main.storyboard */,
 				618A05971DC97408006544DB /* Assets.xcassets */,
 				618A05991DC97408006544DB /* LaunchScreen.storyboard */,
@@ -140,6 +143,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				618A05A31DC97848006544DB /* Task.swift in Sources */,
 				618A05901DC97408006544DB /* ViewController.swift in Sources */,
 				618A058E1DC97408006544DB /* AppDelegate.swift in Sources */,
 				618A05961DC97408006544DB /* DoItv2.xcdatamodeld in Sources */,
